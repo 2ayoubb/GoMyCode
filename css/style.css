@@ -1,0 +1,61 @@
+/* Apply Roboto font to the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Styling for navigation links */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+/* Highlight navigation links on hover */
+nav a:hover {
+    border: 2px solid #555; /* Add border on hover */
+    padding: 10px; /* Adjust padding on hover */
+    border-radius: 30px; /* Add rounded corners */
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Styling for container elements */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for heading */
+h1 {
+    color: #333;
+}
+
+/* Styling for paragraphs */
+p {
+    line-height: 1.6;
+}
+/*styling for image */
+img {
+    border-radius: 50%;
+    float: right;
+    padding: 20px;
+  }
