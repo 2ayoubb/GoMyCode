@@ -48,14 +48,17 @@ nav a:hover {
 h1 {
     color: #333;
 }
-
 /* Styling for paragraphs */
-p {
-    line-height: 1.6;
+footer p {
+    text-align: center;
+    padding: 25px;
+    background: #555;
+    color: white;
+    margin-top:auto;
 }
 /*styling for image */
 img {
     border-radius: 50%;
     float: right;
-    padding: 20px;
+    padding: 15px;
   }
